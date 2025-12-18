@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Futuristic Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="carousel">
+        <img src="asset/images/1.jpg" class="album" />
+        <img src="asset/images/2.jpg" class="album" />
+        <img src="asset/images/3.jpg" class="album active" />
+        <img src="asset/images/4.jpg" class="album" />
+        <img src="asset/images/5.jpg" class="album" />
+        <img src="asset/images/6.jpg" class="album" />
+      </div>
+
+      <div class="info">
+        <h2>Tajdar-e-Haram</h2>
+        <p>Atif Aslam</p>
+      </div>
+
+      <div class="progress">
+        <input type="range" value="0" id="myProgressBar" />
+      </div>
+
+      <div class="controls">
+        <button id="backward">⏮</button>
+        <button class="play" id="masterPlay">
+          <i class="fa-solid fa-play" id="icon"></i>
+        </button>
+
+        <button id="forward">⏭</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
